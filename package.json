@@ -1,0 +1,27 @@
+{
+  "name": "joke-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js",
+    "nodemon": "nodemon --watch ./src ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OliverH22/joke-service.git"
+  },
+  "keywords": [
+    "start"
+  ],
+  "author": "Oliver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OliverH22/joke-service/issues"
+  },
+  "homepage": "https://github.com/OliverH22/joke-service#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
